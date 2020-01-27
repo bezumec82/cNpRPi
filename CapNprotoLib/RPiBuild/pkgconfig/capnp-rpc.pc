@@ -1,0 +1,11 @@
+prefix=/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/CapNprotoLib/CnPlibRPiInstall
+exec_prefix=
+libdir=/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/CapNprotoLib/CnPlibRPiInstall/lib
+includedir=/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/CapNprotoLib/CnPlibRPiInstall/include
+
+Name: Cap'n Proto RPC
+Description: Fast object-oriented RPC system
+Version: 0.7.0
+Libs: -L${libdir} -lcapnp-rpc
+Requires: capnp = 0.7.0 kj-async = 0.7.0
+Cflags: -I${includedir}

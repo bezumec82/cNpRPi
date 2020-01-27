@@ -1,0 +1,1 @@
+/usr/bin/g++   -pthread -std=c++17 -O0 -DLINUX_TERMINAL -g   CMakeFiles/CnPtest.out.dir/src/main.cpp.o  -o ../../x86out/CnPtest.out -lcapnp 

@@ -1,0 +1,5 @@
+/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/rebuild_cache.dir
+/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/edit_cache.dir
+/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/x86Test/CMakeFiles/rebuild_cache.dir
+/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/x86Test/CMakeFiles/edit_cache.dir
+/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/x86Test/CMakeFiles/CnPtest.out.dir

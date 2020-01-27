@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../x86Test/resource/test.capnp.h
+capnp/generated-header-support.h
+-
+kj/windows-sanity.h
+-
+
+/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/x86Test/src/main.cpp
+stdint.h
+-
+stdio.h
+-
+fcntl.h
+-
+unistd.h
+-
+iostream
+-
+capnp/message.h
+-
+capnp/ez-rpc.h
+-
+capnp/serialize-packed.h
+-
+capnp/serialize-text.h
+-
+capnp/serialize.h
+-
+test.capnp.h
+/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/x86Test/src/test.capnp.h
+

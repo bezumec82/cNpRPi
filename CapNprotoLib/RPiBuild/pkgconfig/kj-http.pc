@@ -1,0 +1,11 @@
+prefix=/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/CapNprotoLib/CnPlibRPiInstall
+exec_prefix=
+libdir=/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/CapNprotoLib/CnPlibRPiInstall/lib
+includedir=/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/CapNprotoLib/CnPlibRPiInstall/include
+
+Name: KJ HTTP Library
+Description: Basic utility library called KJ (HTTP part)
+Version: 0.7.0
+Libs: -L${libdir} -lkj-http -pthread  
+Requires: kj-async = 0.7.0
+Cflags: -I${includedir} -pthread  
