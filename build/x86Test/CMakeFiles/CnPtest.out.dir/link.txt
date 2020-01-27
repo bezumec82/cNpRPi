@@ -1,1 +1,1 @@
-/usr/bin/g++   -pthread -std=c++17 -O0 -DLINUX_TERMINAL -g   CMakeFiles/CnPtest.out.dir/src/main.cpp.o  -o ../../x86out/CnPtest.out -lcapnp 
+/usr/bin/g++-8   -pthread -std=c++17 -O0 -g   CMakeFiles/CnPtest.out.dir/src/main.cpp.o CMakeFiles/CnPtest.out.dir/resource/test.capnp.c++.o  -o ../../x86out/CnPtest.out -lcapnp-rpc -lcapnp -lkj-async -lkj 

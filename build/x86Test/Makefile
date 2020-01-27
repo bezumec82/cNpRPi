@@ -23,6 +23,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -125,6 +128,33 @@ CnPtest.out/fast:
 	cd /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build && $(MAKE) -f x86Test/CMakeFiles/CnPtest.out.dir/build.make x86Test/CMakeFiles/CnPtest.out.dir/build
 .PHONY : CnPtest.out/fast
 
+resource/test.capnp.o: resource/test.capnp.c++.o
+
+.PHONY : resource/test.capnp.o
+
+# target to build an object file
+resource/test.capnp.c++.o:
+	cd /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build && $(MAKE) -f x86Test/CMakeFiles/CnPtest.out.dir/build.make x86Test/CMakeFiles/CnPtest.out.dir/resource/test.capnp.c++.o
+.PHONY : resource/test.capnp.c++.o
+
+resource/test.capnp.i: resource/test.capnp.c++.i
+
+.PHONY : resource/test.capnp.i
+
+# target to preprocess a source file
+resource/test.capnp.c++.i:
+	cd /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build && $(MAKE) -f x86Test/CMakeFiles/CnPtest.out.dir/build.make x86Test/CMakeFiles/CnPtest.out.dir/resource/test.capnp.c++.i
+.PHONY : resource/test.capnp.c++.i
+
+resource/test.capnp.s: resource/test.capnp.c++.s
+
+.PHONY : resource/test.capnp.s
+
+# target to generate assembly for a file
+resource/test.capnp.c++.s:
+	cd /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build && $(MAKE) -f x86Test/CMakeFiles/CnPtest.out.dir/build.make x86Test/CMakeFiles/CnPtest.out.dir/resource/test.capnp.c++.s
+.PHONY : resource/test.capnp.c++.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -161,6 +191,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CnPtest.out"
+	@echo "... resource/test.capnp.o"
+	@echo "... resource/test.capnp.i"
+	@echo "... resource/test.capnp.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

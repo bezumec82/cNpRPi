@@ -4,6 +4,7 @@
 #include <unistd.h>
 
 #include <iostream>
+#include <thread>
 
 /* Look  Build_CapNProto_x86.sh
  * /usr/local/include/--> */
@@ -32,6 +33,16 @@ void printDate(int fd) {
     ::std::cout << "Day : "   << int( date.getDay() )   << ::std::endl;
 }
 
+class CallableImpl final: public Callable::Server
+{
+    public:
+    ::kj::Promise<void> print(PrintContext context) override {
+        ::std::cout << "Client ask to run callable" << ::std::endl;
+        return kj::READY_NOW;
+    }
+};
+
+
 int main (int , char ** )
 {
     int fd = open( "./CnPtest", 
@@ -50,5 +61,40 @@ int main (int , char ** )
 #endif
     printDate(fd);
     close(fd);
+
+    ::std::thread client_thread( [&]()
+        {
+            ::std::cout << "Client thread started" << ::std::endl;
+            capnp::EzRpcClient client("127.0.0.1:8000");
+            Callable::Client callable = client.getMain< Callable >();
+            auto& waitScope = client.getWaitScope();
+            /* Setup the request */
+            auto request = callable.printRequest();
+            /* Send request */
+            auto result = request.send();
+            auto readPromise = result.ignoreResult();
+            readPromise.wait( waitScope );
+            ::std::cout << "RPC test passed" << ::std::endl;
+        });
+
+    ::std::thread server_thread( [&]()
+        {
+            capnp::EzRpcServer server( kj::heap<CallableImpl>(), "127.0.0.1:8000");
+            auto& waitScope = server.getWaitScope();
+            uint port = server.getPort().wait( waitScope );
+            // if (port == 0) {
+            //     // The address format "unix:/path/to/socket" opens a unix domain socket,
+            //     // in which case the port will be zero.
+            //     std::cout << "Listening on Unix socket..." << std::endl;
+            // } else {
+            //     std::cout << "Listening on port " << port << "..." << std::endl;
+            // }
+
+            // Run forever, accepting connections and handling requests.
+            kj::NEVER_DONE.wait( waitScope );
+        });
+
+    client_thread.join();
+    server_thread.join();
     return 0;
 }

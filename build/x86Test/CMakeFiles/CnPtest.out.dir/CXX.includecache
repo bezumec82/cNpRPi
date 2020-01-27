@@ -11,6 +11,8 @@ capnp/generated-header-support.h
 -
 kj/windows-sanity.h
 -
+capnp/capability.h
+-
 
 /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/x86Test/src/main.cpp
 stdint.h
@@ -22,6 +24,8 @@ fcntl.h
 unistd.h
 -
 iostream
+-
+thread
 -
 capnp/message.h
 -
