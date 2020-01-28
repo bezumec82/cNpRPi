@@ -14,6 +14,18 @@ kj/windows-sanity.h
 capnp/capability.h
 -
 
+/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/x86Test/resource/test.capnp.c++
+test.capnp.h
+/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/x86Test/resource/test.capnp.h
+
+/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/x86Test/resource/test.capnp.h
+capnp/generated-header-support.h
+-
+kj/windows-sanity.h
+-
+capnp/capability.h
+-
+
 /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/x86Test/src/main.cpp
 stdint.h
 -

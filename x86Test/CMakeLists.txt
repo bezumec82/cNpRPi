@@ -17,9 +17,7 @@ set( CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/x86out )
 
 execute_process (
     COMMAND 
-    bash -c "
-    cd ${CMAKE_CURRENT_SOURCE_DIR}/resource &&
-    capnp compile -o c++ test.capnp"
+    bash -c "${CMAKE_CURRENT_SOURCE_DIR}/../compileCnP.sh ${CMAKE_CURRENT_SOURCE_DIR}/resource/*.capnp"
 )
 
 # CnP generated files intentionally separated
@@ -38,6 +36,6 @@ target_link_libraries (
 LINK_PRIVATE
     capnp-rpc
     capnp
-    kj-async
     kj
+    kj-async
 )

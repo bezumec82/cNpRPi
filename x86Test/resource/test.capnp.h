@@ -17,10 +17,10 @@
 namespace capnp {
 namespace schemas {
 
-CAPNP_DECLARE_SCHEMA(bd3b62f5d88be20f);
-CAPNP_DECLARE_SCHEMA(d08d1c6d20c045c1);
-CAPNP_DECLARE_SCHEMA(ad9cdd47748966ad);
-CAPNP_DECLARE_SCHEMA(897f6b54bfaeb2fd);
+CAPNP_DECLARE_SCHEMA(9ccead15aa33c332);
+CAPNP_DECLARE_SCHEMA(f5523ae5b3961fb7);
+CAPNP_DECLARE_SCHEMA(8809c53f7f30844c);
+CAPNP_DECLARE_SCHEMA(cb4586cd2fcdac8b);
 
 }  // namespace schemas
 }  // namespace capnp
@@ -34,7 +34,7 @@ struct Date {
   class Pipeline;
 
   struct _capnpPrivate {
-    CAPNP_DECLARE_STRUCT_HEADER(bd3b62f5d88be20f, 1, 0)
+    CAPNP_DECLARE_STRUCT_HEADER(9ccead15aa33c332, 1, 0)
     #if !CAPNP_LITE
     static constexpr ::capnp::_::RawBrandedSchema const* brand() { return &schema->defaultBrand; }
     #endif  // !CAPNP_LITE
@@ -54,7 +54,7 @@ struct Callable {
 
   #if !CAPNP_LITE
   struct _capnpPrivate {
-    CAPNP_DECLARE_INTERFACE_HEADER(d08d1c6d20c045c1)
+    CAPNP_DECLARE_INTERFACE_HEADER(f5523ae5b3961fb7)
     static constexpr ::capnp::_::RawBrandedSchema const* brand() { return &schema->defaultBrand; }
   };
   #endif  // !CAPNP_LITE
@@ -68,7 +68,7 @@ struct Callable::PrintParams {
   class Pipeline;
 
   struct _capnpPrivate {
-    CAPNP_DECLARE_STRUCT_HEADER(ad9cdd47748966ad, 0, 0)
+    CAPNP_DECLARE_STRUCT_HEADER(8809c53f7f30844c, 0, 0)
     #if !CAPNP_LITE
     static constexpr ::capnp::_::RawBrandedSchema const* brand() { return &schema->defaultBrand; }
     #endif  // !CAPNP_LITE
@@ -83,7 +83,7 @@ struct Callable::PrintResults {
   class Pipeline;
 
   struct _capnpPrivate {
-    CAPNP_DECLARE_STRUCT_HEADER(897f6b54bfaeb2fd, 0, 0)
+    CAPNP_DECLARE_STRUCT_HEADER(cb4586cd2fcdac8b, 0, 0)
     #if !CAPNP_LITE
     static constexpr ::capnp::_::RawBrandedSchema const* brand() { return &schema->defaultBrand; }
     #endif  // !CAPNP_LITE

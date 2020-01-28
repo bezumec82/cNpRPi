@@ -1,0 +1,6 @@
+interface Callable
+{
+  print @0 () -> ();
+}
+
+

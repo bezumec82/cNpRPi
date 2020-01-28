@@ -1,6 +1,6 @@
 The system is: Linux - 4.4.0-148-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Compiler: /usr/bin/cc 
 Build flags: 
 Id flags:  
 
@@ -13,7 +13,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 The C compiler identification is GNU, found in "/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/3.14.5/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Compiler: /usr/bin/g++ 
 Build flags: 
 Id flags:  
 
@@ -28,174 +28,191 @@ The CXX compiler identification is GNU, found in "/media/constantine/Work/BOARDS
 Determining if the C compiler works passed with the following output:
 Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a2925/fast 
-/usr/bin/make -f CMakeFiles/cmTC_a2925.dir/build.make CMakeFiles/cmTC_a2925.dir/build
+Run Build Command(s):/usr/bin/make cmTC_17571/fast 
+/usr/bin/make -f CMakeFiles/cmTC_17571.dir/build.make CMakeFiles/cmTC_17571.dir/build
 make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a2925.dir/testCCompiler.c.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_a2925.dir/testCCompiler.c.o   -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_a2925
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2925.dir/link.txt --verbose=1
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_a2925.dir/testCCompiler.c.o  -o cmTC_a2925 
+Building C object CMakeFiles/cmTC_17571.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_17571.dir/testCCompiler.c.o   -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_17571
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17571.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_17571.dir/testCCompiler.c.o  -o cmTC_17571 
 make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_cb294/fast 
-/usr/bin/make -f CMakeFiles/cmTC_cb294.dir/build.make CMakeFiles/cmTC_cb294.dir/build
+Run Build Command(s):/usr/bin/make cmTC_69a52/fast 
+/usr/bin/make -f CMakeFiles/cmTC_69a52.dir/build.make CMakeFiles/cmTC_69a52.dir/build
 make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c
+Building C object CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c
 Using built-in specs.
-COLLECT_GCC=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
-Target: arm-linux-gnueabihf
-Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-16ubuntu3~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=gcc4-compatible --disable-libstdcxx-dual-abi --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/cc1 -quiet -v -iprefix /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/ -isysroot /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv6 -mfloat-abi=hard -mfpu=vfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o -version -o /tmp/cckMO4yh.s
-GNU C (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)
-	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+gcc version 8.3.0 (Ubuntu 8.3.0-16ubuntu3~14.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccEzAwYI.s
+GNU C17 (Ubuntu 8.3.0-16ubuntu3~14.04.2) version 8.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 5.1.3, MPFR version 3.1.3, MPC version 1.0.1, isl version isl-0.15-GMP
+
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include"
-ignoring nonexistent directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot/include"
-ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed"
-ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include
+ /usr/lib/gcc/x86_64-linux-gnu/8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
 End of search list.
-GNU C (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)
-	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GNU C17 (Ubuntu 8.3.0-16ubuntu3~14.04.2) version 8.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 5.1.3, MPFR version 3.1.3, MPC version 1.0.1, isl version isl-0.15-GMP
+
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: ab6520190aab2eb5dd4fcb2a453dd165
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/as -v -march=armv6 -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o /tmp/cckMO4yh.s
-GNU assembler version 2.25.1 (arm-linux-gnueabihf) using BFD version (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 2.25.1
-COMPILER_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
-LIBRARY_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
-Linking C executable cmTC_cb294
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb294.dir/link.txt --verbose=1
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v -rdynamic CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o  -o cmTC_cb294 
+Compiler executable checksum: c59a619311dfe3c7b50d42db50203814
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o /tmp/ccEzAwYI.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_69a52
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69a52.dir/link.txt --verbose=1
+/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o  -o cmTC_69a52 
 Using built-in specs.
-COLLECT_GCC=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
-COLLECT_LTO_WRAPPER=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper
-Target: arm-linux-gnueabihf
-Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-16ubuntu3~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=gcc4-compatible --disable-libstdcxx-dual-abi --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 
-COMPILER_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
-LIBRARY_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cb294' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNS8jPk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_cb294 /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o
+gcc version 8.3.0 (Ubuntu 8.3.0-16ubuntu3~14.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_69a52' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAo08uN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_69a52 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_69a52' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include]
-    add: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed]
-    add: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include]
-    add: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/8/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
   end of search list found
-  collapse include dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include]
-  collapse include dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed]
-  collapse include dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include]
-  collapse include dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/include]
-  implicit include dirs: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/8/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/8/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/8/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_cb294/fast ]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cb294.dir/build.make CMakeFiles/cmTC_cb294.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_69a52/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_69a52.dir/build.make CMakeFiles/cmTC_69a52.dir/build]
   ignore line: [make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -v -o CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
+  ignore line: [Building C object CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
-  ignore line: [Target: arm-linux-gnueabihf]
-  ignore line: [Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-16ubuntu3~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=gcc4-compatible --disable-libstdcxx-dual-abi --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/cc1 -quiet -v -iprefix /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/ -isysroot /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv6 -mfloat-abi=hard -mfpu=vfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o -version -o /tmp/cckMO4yh.s]
-  ignore line: [GNU C (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)]
-  ignore line: [	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3]
+  ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-16ubuntu3~14.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccEzAwYI.s]
+  ignore line: [GNU C17 (Ubuntu 8.3.0-16ubuntu3~14.04.2) version 8.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 5.1.3, MPFR version 3.1.3, MPC version 1.0.1, isl version isl-0.15-GMP]
+  ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include"]
-  ignore line: [ignoring nonexistent directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot/include"]
-  ignore line: [ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed"]
-  ignore line: [ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include]
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed]
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include]
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [GNU C (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)]
-  ignore line: [	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3]
+  ignore line: [GNU C17 (Ubuntu 8.3.0-16ubuntu3~14.04.2) version 8.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 5.1.3, MPFR version 3.1.3, MPC version 1.0.1, isl version isl-0.15-GMP]
+  ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: ab6520190aab2eb5dd4fcb2a453dd165]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/as -v -march=armv6 -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o /tmp/cckMO4yh.s]
-  ignore line: [GNU assembler version 2.25.1 (arm-linux-gnueabihf) using BFD version (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 2.25.1]
-  ignore line: [COMPILER_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
-  ignore line: [LIBRARY_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o' '-c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  ignore line: [Linking C executable cmTC_cb294]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb294.dir/link.txt --verbose=1]
-  ignore line: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v -rdynamic CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o  -o cmTC_cb294 ]
+  ignore line: [Compiler executable checksum: c59a619311dfe3c7b50d42db50203814]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o /tmp/ccEzAwYI.s]
+  ignore line: [GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_69a52]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69a52.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v -rdynamic CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o  -o cmTC_69a52 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
-  ignore line: [COLLECT_LTO_WRAPPER=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper]
-  ignore line: [Target: arm-linux-gnueabihf]
-  ignore line: [Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-16ubuntu3~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=gcc4-compatible --disable-libstdcxx-dual-abi --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ]
-  ignore line: [COMPILER_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
-  ignore line: [LIBRARY_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cb294' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  link line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccNS8jPk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_cb294 /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o]
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2] ==> ignore
+  ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-16ubuntu3~14.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_69a52' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAo08uN.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_69a52 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccNS8jPk.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccAo08uN.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [--sysroot=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot] ==> ignore
+    arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
     arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
-    arg [/lib/ld-linux-armhf.so.3] ==> ignore
-    arg [-X] ==> ignore
-    arg [-m] ==> ignore
-    arg [armelf_linux_eabi] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_cb294] ==> ignore
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o] ==> ignore
-    arg [-L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3]
-    arg [-L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc]
-    arg [-L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib]
-    arg [-L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib]
-    arg [-L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib]
-    arg [CMakeFiles/cmTC_cb294.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [cmTC_69a52] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_69a52.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -205,15 +222,18 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o] ==> ignore
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
-  collapse library dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3]
-  collapse library dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc]
-  collapse library dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib]
-  collapse library dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib]
-  collapse library dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
@@ -222,14 +242,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_f9ff5/fast 
-/usr/bin/make -f CMakeFiles/cmTC_f9ff5.dir/build.make CMakeFiles/cmTC_f9ff5.dir/build
+Run Build Command(s):/usr/bin/make cmTC_445bb/fast 
+/usr/bin/make -f CMakeFiles/cmTC_445bb.dir/build.make CMakeFiles/cmTC_445bb.dir/build
 make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f9ff5.dir/feature_tests.c.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c11 -o CMakeFiles/cmTC_f9ff5.dir/feature_tests.c.o   -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f9ff5
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9ff5.dir/link.txt --verbose=1
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_f9ff5.dir/feature_tests.c.o  -o cmTC_f9ff5 
+Building C object CMakeFiles/cmTC_445bb.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_445bb.dir/feature_tests.c.o   -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_445bb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_445bb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_445bb.dir/feature_tests.c.o  -o cmTC_445bb 
 make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
 
 
@@ -242,14 +262,14 @@ make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/C
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_458ed/fast 
-/usr/bin/make -f CMakeFiles/cmTC_458ed.dir/build.make CMakeFiles/cmTC_458ed.dir/build
+Run Build Command(s):/usr/bin/make cmTC_037b9/fast 
+/usr/bin/make -f CMakeFiles/cmTC_037b9.dir/build.make CMakeFiles/cmTC_037b9.dir/build
 make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_458ed.dir/feature_tests.c.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c99 -o CMakeFiles/cmTC_458ed.dir/feature_tests.c.o   -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_458ed
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_458ed.dir/link.txt --verbose=1
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_458ed.dir/feature_tests.c.o  -o cmTC_458ed 
+Building C object CMakeFiles/cmTC_037b9.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_037b9.dir/feature_tests.c.o   -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_037b9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_037b9.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_037b9.dir/feature_tests.c.o  -o cmTC_037b9 
 make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
 
 
@@ -262,14 +282,14 @@ make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/C
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_6374e/fast 
-/usr/bin/make -f CMakeFiles/cmTC_6374e.dir/build.make CMakeFiles/cmTC_6374e.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c26ac/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c26ac.dir/build.make CMakeFiles/cmTC_c26ac.dir/build
 make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_6374e.dir/feature_tests.c.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c90 -o CMakeFiles/cmTC_6374e.dir/feature_tests.c.o   -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_6374e
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6374e.dir/link.txt --verbose=1
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_6374e.dir/feature_tests.c.o  -o cmTC_6374e 
+Building C object CMakeFiles/cmTC_c26ac.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_c26ac.dir/feature_tests.c.o   -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c26ac
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c26ac.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_c26ac.dir/feature_tests.c.o  -o cmTC_c26ac 
 make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
 
 
@@ -280,192 +300,205 @@ make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/C
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_6feb6/fast 
-/usr/bin/make -f CMakeFiles/cmTC_6feb6.dir/build.make CMakeFiles/cmTC_6feb6.dir/build
+Run Build Command(s):/usr/bin/make cmTC_b3b28/fast 
+/usr/bin/make -f CMakeFiles/cmTC_b3b28.dir/build.make CMakeFiles/cmTC_b3b28.dir/build
 make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6feb6.dir/testCXXCompiler.cxx.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++     -o CMakeFiles/cmTC_6feb6.dir/testCXXCompiler.cxx.o -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_6feb6
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6feb6.dir/link.txt --verbose=1
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       -rdynamic CMakeFiles/cmTC_6feb6.dir/testCXXCompiler.cxx.o  -o cmTC_6feb6 
+Building CXX object CMakeFiles/cmTC_b3b28.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_b3b28.dir/testCXXCompiler.cxx.o -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b3b28
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3b28.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_b3b28.dir/testCXXCompiler.cxx.o  -o cmTC_b3b28 
 make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_78b0c/fast 
-/usr/bin/make -f CMakeFiles/cmTC_78b0c.dir/build.make CMakeFiles/cmTC_78b0c.dir/build
+Run Build Command(s):/usr/bin/make cmTC_c9069/fast 
+/usr/bin/make -f CMakeFiles/cmTC_c9069.dir/build.make CMakeFiles/cmTC_c9069.dir/build
 make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -v -o CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
+Building CXX object CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++    -v -o CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
-COLLECT_GCC=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
-Target: arm-linux-gnueabihf
-Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp
+COLLECT_GCC=/usr/bin/g++
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-16ubuntu3~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=gcc4-compatible --disable-libstdcxx-dual-abi --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/cc1plus -quiet -v -iprefix /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/ -isysroot /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot -D_GNU_SOURCE /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv6 -mfloat-abi=hard -mfpu=vfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccKrHx3I.s
-GNU C++ (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)
-	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+gcc version 8.3.0 (Ubuntu 8.3.0-16ubuntu3~14.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccDJxuA8.s
+GNU C++14 (Ubuntu 8.3.0-16ubuntu3~14.04.2) version 8.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 5.1.3, MPFR version 3.1.3, MPC version 1.0.1, isl version isl-0.15-GMP
+
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3"
-ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf"
-ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/backward"
-ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include"
-ignoring nonexistent directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot/include"
-ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed"
-ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include"
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/backward
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include
+ /usr/include/c++/8
+ /usr/include/x86_64-linux-gnu/c++/8
+ /usr/include/c++/8/backward
+ /usr/lib/gcc/x86_64-linux-gnu/8/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
 End of search list.
-GNU C++ (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)
-	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3
+GNU C++14 (Ubuntu 8.3.0-16ubuntu3~14.04.2) version 8.3.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.3.0, GMP version 5.1.3, MPFR version 3.1.3, MPC version 1.0.1, isl version isl-0.15-GMP
+
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-Compiler executable checksum: 5490cb547d5e63dcf8255bc3ba4b9a59
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/as -v -march=armv6 -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccKrHx3I.s
-GNU assembler version 2.25.1 (arm-linux-gnueabihf) using BFD version (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 2.25.1
-COMPILER_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
-LIBRARY_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
-Linking CXX executable cmTC_78b0c
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78b0c.dir/link.txt --verbose=1
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v -rdynamic CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_78b0c 
+Compiler executable checksum: 6083d9dcef6376ee33fa024a9aac7525
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDJxuA8.s
+GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_c9069
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9069.dir/link.txt --verbose=1
+/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c9069 
 Using built-in specs.
-COLLECT_GCC=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
-COLLECT_LTO_WRAPPER=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper
-Target: arm-linux-gnueabihf
-Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp
+COLLECT_GCC=/usr/bin/g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-16ubuntu3~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=gcc4-compatible --disable-libstdcxx-dual-abi --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 
-COMPILER_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
-LIBRARY_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_78b0c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAGzvSH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_78b0c /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o
+gcc version 8.3.0 (Ubuntu 8.3.0-16ubuntu3~14.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c9069' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEcmY1b.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c9069 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c9069' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3]
-    add: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf]
-    add: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/backward]
-    add: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include]
-    add: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed]
-    add: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include]
-    add: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include]
+    add: [/usr/include/c++/8]
+    add: [/usr/include/x86_64-linux-gnu/c++/8]
+    add: [/usr/include/c++/8/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/8/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
   end of search list found
-  collapse include dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3]
-  collapse include dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf]
-  collapse include dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/backward] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3/backward]
-  collapse include dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include]
-  collapse include dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed]
-  collapse include dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include]
-  collapse include dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/include]
-  implicit include dirs: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include/c++/4.9.3/backward;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/include;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/include]
+  collapse include dir [/usr/include/c++/8] ==> [/usr/include/c++/8]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/8] ==> [/usr/include/x86_64-linux-gnu/c++/8]
+  collapse include dir [/usr/include/c++/8/backward] ==> [/usr/include/c++/8/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/8/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/8/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/8;/usr/include/x86_64-linux-gnu/c++/8;/usr/include/c++/8/backward;/usr/lib/gcc/x86_64-linux-gnu/8/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_78b0c/fast ]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_78b0c.dir/build.make CMakeFiles/cmTC_78b0c.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_c9069/fast ]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c9069.dir/build.make CMakeFiles/cmTC_c9069.dir/build]
   ignore line: [make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -v -o CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Building CXX object CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/g++    -v -o CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
-  ignore line: [Target: arm-linux-gnueabihf]
-  ignore line: [Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-16ubuntu3~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=gcc4-compatible --disable-libstdcxx-dual-abi --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/cc1plus -quiet -v -iprefix /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/ -isysroot /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot -D_GNU_SOURCE /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv6 -mfloat-abi=hard -mfpu=vfp -mtls-dialect=gnu -auxbase-strip CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccKrHx3I.s]
-  ignore line: [GNU C++ (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)]
-  ignore line: [	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3]
+  ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-16ubuntu3~14.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector -Wformat -Wformat-security -o /tmp/ccDJxuA8.s]
+  ignore line: [GNU C++14 (Ubuntu 8.3.0-16ubuntu3~14.04.2) version 8.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 5.1.3, MPFR version 3.1.3, MPC version 1.0.1, isl version isl-0.15-GMP]
+  ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3"]
-  ignore line: [ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf"]
-  ignore line: [ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/backward"]
-  ignore line: [ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include"]
-  ignore line: [ignoring nonexistent directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot/include"]
-  ignore line: [ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed"]
-  ignore line: [ignoring duplicate directory "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/../../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include"]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3]
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/arm-linux-gnueabihf]
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include/c++/4.9.3/backward]
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include]
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed]
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/include]
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/include]
+  ignore line: [ /usr/include/c++/8]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/8]
+  ignore line: [ /usr/include/c++/8/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
   ignore line: [End of search list.]
-  ignore line: [GNU C++ (crosstool-NG crosstool-ng-1.22.0-88-g8460611) version 4.9.3 (arm-linux-gnueabihf)]
-  ignore line: [	compiled by GNU C version 4.8.4, GMP version 6.0.0, MPFR version 3.1.3, MPC version 1.0.3]
+  ignore line: [GNU C++14 (Ubuntu 8.3.0-16ubuntu3~14.04.2) version 8.3.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.3.0, GMP version 5.1.3, MPFR version 3.1.3, MPC version 1.0.1, isl version isl-0.15-GMP]
+  ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [Compiler executable checksum: 5490cb547d5e63dcf8255bc3ba4b9a59]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  ignore line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/as -v -march=armv6 -mfloat-abi=hard -mfpu=vfp -meabi=5 -o CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccKrHx3I.s]
-  ignore line: [GNU assembler version 2.25.1 (arm-linux-gnueabihf) using BFD version (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 2.25.1]
-  ignore line: [COMPILER_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
-  ignore line: [LIBRARY_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  ignore line: [Linking CXX executable cmTC_78b0c]
-  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78b0c.dir/link.txt --verbose=1]
-  ignore line: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++      -v -rdynamic CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_78b0c ]
+  ignore line: [Compiler executable checksum: 6083d9dcef6376ee33fa024a9aac7525]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccDJxuA8.s]
+  ignore line: [GNU assembler version 2.24 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.24]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_c9069]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9069.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/g++      -v -rdynamic CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c9069 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++]
-  ignore line: [COLLECT_LTO_WRAPPER=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper]
-  ignore line: [Target: arm-linux-gnueabihf]
-  ignore line: [Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp]
+  ignore line: [COLLECT_GCC=/usr/bin/g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.3.0-16ubuntu3~14.04.2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=gcc4-compatible --disable-libstdcxx-dual-abi --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ]
-  ignore line: [COMPILER_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
-  ignore line: [LIBRARY_PATH=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_78b0c' '-shared-libgcc' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  link line: [ /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAGzvSH.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_78b0c /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o]
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2] ==> ignore
+  ignore line: [gcc version 8.3.0 (Ubuntu 8.3.0-16ubuntu3~14.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_c9069' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEcmY1b.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_c9069 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccAGzvSH.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccEcmY1b.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--sysroot=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot] ==> ignore
+    arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
     arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
-    arg [/lib/ld-linux-armhf.so.3] ==> ignore
-    arg [-X] ==> ignore
-    arg [-m] ==> ignore
-    arg [armelf_linux_eabi] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_78b0c] ==> ignore
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o] ==> ignore
-    arg [-L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3]
-    arg [-L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc]
-    arg [-L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib]
-    arg [-L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib]
-    arg [-L/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib]
-    arg [CMakeFiles/cmTC_78b0c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [cmTC_c9069] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_c9069.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -473,35 +506,38 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o] ==> ignore
-    arg [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
-  collapse library dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3]
-  collapse library dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc]
-  collapse library dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib]
-  collapse library dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib]
-  collapse library dir [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
-  implicit dirs: [/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib;/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
-Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
 Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_31c45/fast 
-/usr/bin/make -f CMakeFiles/cmTC_31c45.dir/build.make CMakeFiles/cmTC_31c45.dir/build
+Run Build Command(s):/usr/bin/make cmTC_a32cc/fast 
+/usr/bin/make -f CMakeFiles/cmTC_a32cc.dir/build.make CMakeFiles/cmTC_a32cc.dir/build
 make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_31c45.dir/feature_tests.cxx.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++14 -o CMakeFiles/cmTC_31c45.dir/feature_tests.cxx.o -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_31c45
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31c45.dir/link.txt --verbose=1
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       -rdynamic CMakeFiles/cmTC_31c45.dir/feature_tests.cxx.o  -o cmTC_31c45 
+Building CXX object CMakeFiles/cmTC_a32cc.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++2a -o CMakeFiles/cmTC_a32cc.dir/feature_tests.cxx.o -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a32cc
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a32cc.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_a32cc.dir/feature_tests.cxx.o  -o cmTC_a32cc 
 make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
 
 
-    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
     Feature record: CXX_FEATURE:1cxx_alias_templates
     Feature record: CXX_FEATURE:1cxx_alignas
     Feature record: CXX_FEATURE:1cxx_alignof
@@ -541,7 +577,7 @@ make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/C
     Feature record: CXX_FEATURE:1cxx_range_for
     Feature record: CXX_FEATURE:1cxx_raw_string_literals
     Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
-    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
     Feature record: CXX_FEATURE:1cxx_return_type_deduction
     Feature record: CXX_FEATURE:1cxx_right_angle_brackets
     Feature record: CXX_FEATURE:1cxx_rvalue_references
@@ -555,7 +591,153 @@ make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/C
     Feature record: CXX_FEATURE:1cxx_uniform_initialization
     Feature record: CXX_FEATURE:1cxx_unrestricted_unions
     Feature record: CXX_FEATURE:1cxx_user_literals
-    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ad61/fast 
+/usr/bin/make -f CMakeFiles/cmTC_7ad61.dir/build.make CMakeFiles/cmTC_7ad61.dir/build
+make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7ad61.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++17 -o CMakeFiles/cmTC_7ad61.dir/feature_tests.cxx.o -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_7ad61
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ad61.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_7ad61.dir/feature_tests.cxx.o  -o cmTC_7ad61 
+make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_dc577/fast 
+/usr/bin/make -f CMakeFiles/cmTC_dc577.dir/build.make CMakeFiles/cmTC_dc577.dir/build
+make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_dc577.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++14 -o CMakeFiles/cmTC_dc577.dir/feature_tests.cxx.o -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_dc577
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc577.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_dc577.dir/feature_tests.cxx.o  -o cmTC_dc577 
+make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
     Feature record: CXX_FEATURE:1cxx_variadic_macros
     Feature record: CXX_FEATURE:1cxx_variadic_templates
 
@@ -563,14 +745,14 @@ make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/C
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_4dd55/fast 
-/usr/bin/make -f CMakeFiles/cmTC_4dd55.dir/build.make CMakeFiles/cmTC_4dd55.dir/build
+Run Build Command(s):/usr/bin/make cmTC_be831/fast 
+/usr/bin/make -f CMakeFiles/cmTC_be831.dir/build.make CMakeFiles/cmTC_be831.dir/build
 make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4dd55.dir/feature_tests.cxx.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++11 -o CMakeFiles/cmTC_4dd55.dir/feature_tests.cxx.o -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4dd55
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dd55.dir/link.txt --verbose=1
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       -rdynamic CMakeFiles/cmTC_4dd55.dir/feature_tests.cxx.o  -o cmTC_4dd55 
+Building CXX object CMakeFiles/cmTC_be831.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++11 -o CMakeFiles/cmTC_be831.dir/feature_tests.cxx.o -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_be831
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be831.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_be831.dir/feature_tests.cxx.o  -o cmTC_be831 
 make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
 
 
@@ -636,14 +818,14 @@ make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/C
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_70b4b/fast 
-/usr/bin/make -f CMakeFiles/cmTC_70b4b.dir/build.make CMakeFiles/cmTC_70b4b.dir/build
+Run Build Command(s):/usr/bin/make cmTC_16646/fast 
+/usr/bin/make -f CMakeFiles/cmTC_16646.dir/build.make CMakeFiles/cmTC_16646.dir/build
 make[1]: Entering directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_70b4b.dir/feature_tests.cxx.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++    -std=c++98 -o CMakeFiles/cmTC_70b4b.dir/feature_tests.cxx.o -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_70b4b
-/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70b4b.dir/link.txt --verbose=1
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++       -rdynamic CMakeFiles/cmTC_70b4b.dir/feature_tests.cxx.o  -o cmTC_70b4b 
+Building CXX object CMakeFiles/cmTC_16646.dir/feature_tests.cxx.o
+/usr/bin/g++    -std=c++98 -o CMakeFiles/cmTC_16646.dir/feature_tests.cxx.o -c /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_16646
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16646.dir/link.txt --verbose=1
+/usr/bin/g++       -rdynamic CMakeFiles/cmTC_16646.dir/feature_tests.cxx.o  -o cmTC_16646 
 make[1]: Leaving directory `/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles/CMakeTmp'
 
 
