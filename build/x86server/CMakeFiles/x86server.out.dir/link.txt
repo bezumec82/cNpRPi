@@ -1,1 +1,0 @@
-/usr/bin/g++-8   -pthread -std=c++17 -O0 -g   CMakeFiles/x86server.out.dir/src/main.cpp.o CMakeFiles/x86server.out.dir/__/resource/schema.capnp.c++.o  -o ../../x86out/x86server.out -lcapnp-rpc -lcapnp -lkj -lkj-async 
