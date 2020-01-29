@@ -126,6 +126,32 @@ CnPtest.out/fast:
 	$(MAKE) -f x86Test/CMakeFiles/CnPtest.out.dir/build.make x86Test/CMakeFiles/CnPtest.out.dir/build
 .PHONY : CnPtest.out/fast
 
+#=============================================================================
+# Target rules for targets named x86server.out
+
+# Build rule for target.
+x86server.out: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 x86server.out
+.PHONY : x86server.out
+
+# fast build rule for target.
+x86server.out/fast:
+	$(MAKE) -f x86server/CMakeFiles/x86server.out.dir/build.make x86server/CMakeFiles/x86server.out.dir/build
+.PHONY : x86server.out/fast
+
+#=============================================================================
+# Target rules for targets named RPiClient.out
+
+# Build rule for target.
+RPiClient.out: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RPiClient.out
+.PHONY : RPiClient.out
+
+# fast build rule for target.
+RPiClient.out/fast:
+	$(MAKE) -f RPiClient/CMakeFiles/RPiClient.out.dir/build.make RPiClient/CMakeFiles/RPiClient.out.dir/build
+.PHONY : RPiClient.out/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -135,6 +161,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CnPtest.out"
+	@echo "... x86server.out"
+	@echo "... RPiClient.out"
 .PHONY : help
 
 

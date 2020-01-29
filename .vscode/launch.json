@@ -2,10 +2,31 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "(gdb) Launch",
+            "name": "RPiDebug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/x86out/CnPtest.out",
+            "program": "${workspaceRoot}/RPiOut/RPiClient.out",
+            "MIMode": "gdb",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceRoot}",
+            "miDebuggerServerAddress": "192.168.1.72:2345",
+            "miDebuggerPath": "/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        
+        {
+            "name": "x86debug",
+            "type": "cppdbg",
+            "request": "launch",
+            //"program": "${workspaceFolder}/x86out/CnPtest.out",
+            "program": "${workspaceFolder}/x86out/x86server.out",
             "args": [],
             "stopAtEntry": true,
             "cwd": "${workspaceFolder}",
@@ -20,5 +41,6 @@
                 }
             ]
         }
+
     ]
 }
