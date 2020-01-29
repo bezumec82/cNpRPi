@@ -123,6 +123,116 @@ clean: x86Test/CMakeFiles/CnPtest.out.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Directory level rules for directory x86server
+
+# Convenience name for "all" pass in the directory.
+x86server/all: x86server/CMakeFiles/x86server.out.dir/all
+
+.PHONY : x86server/all
+
+# Convenience name for "clean" pass in the directory.
+x86server/clean: x86server/CMakeFiles/x86server.out.dir/clean
+
+.PHONY : x86server/clean
+
+# Convenience name for "preinstall" pass in the directory.
+x86server/preinstall:
+
+.PHONY : x86server/preinstall
+
+#=============================================================================
+# Target rules for target x86server/CMakeFiles/x86server.out.dir
+
+# All Build rule for target.
+x86server/CMakeFiles/x86server.out.dir/all:
+	$(MAKE) -f x86server/CMakeFiles/x86server.out.dir/build.make x86server/CMakeFiles/x86server.out.dir/depend
+	$(MAKE) -f x86server/CMakeFiles/x86server.out.dir/build.make x86server/CMakeFiles/x86server.out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles --progress-num=7,8,9 "Built target x86server.out"
+.PHONY : x86server/CMakeFiles/x86server.out.dir/all
+
+# Include target in all.
+all: x86server/CMakeFiles/x86server.out.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+x86server/CMakeFiles/x86server.out.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 x86server/CMakeFiles/x86server.out.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles 0
+.PHONY : x86server/CMakeFiles/x86server.out.dir/rule
+
+# Convenience name for target.
+x86server.out: x86server/CMakeFiles/x86server.out.dir/rule
+
+.PHONY : x86server.out
+
+# clean rule for target.
+x86server/CMakeFiles/x86server.out.dir/clean:
+	$(MAKE) -f x86server/CMakeFiles/x86server.out.dir/build.make x86server/CMakeFiles/x86server.out.dir/clean
+.PHONY : x86server/CMakeFiles/x86server.out.dir/clean
+
+# clean rule for target.
+clean: x86server/CMakeFiles/x86server.out.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory RPiClient
+
+# Convenience name for "all" pass in the directory.
+RPiClient/all: RPiClient/CMakeFiles/RPiClient.out.dir/all
+
+.PHONY : RPiClient/all
+
+# Convenience name for "clean" pass in the directory.
+RPiClient/clean: RPiClient/CMakeFiles/RPiClient.out.dir/clean
+
+.PHONY : RPiClient/clean
+
+# Convenience name for "preinstall" pass in the directory.
+RPiClient/preinstall:
+
+.PHONY : RPiClient/preinstall
+
+#=============================================================================
+# Target rules for target RPiClient/CMakeFiles/RPiClient.out.dir
+
+# All Build rule for target.
+RPiClient/CMakeFiles/RPiClient.out.dir/all:
+	$(MAKE) -f RPiClient/CMakeFiles/RPiClient.out.dir/build.make RPiClient/CMakeFiles/RPiClient.out.dir/depend
+	$(MAKE) -f RPiClient/CMakeFiles/RPiClient.out.dir/build.make RPiClient/CMakeFiles/RPiClient.out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles --progress-num=4,5,6 "Built target RPiClient.out"
+.PHONY : RPiClient/CMakeFiles/RPiClient.out.dir/all
+
+# Include target in all.
+all: RPiClient/CMakeFiles/RPiClient.out.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+RPiClient/CMakeFiles/RPiClient.out.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 RPiClient/CMakeFiles/RPiClient.out.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/constantine/Work/BOARDS/RASPBERRY/workspace/CapNProto/build/CMakeFiles 0
+.PHONY : RPiClient/CMakeFiles/RPiClient.out.dir/rule
+
+# Convenience name for target.
+RPiClient.out: RPiClient/CMakeFiles/RPiClient.out.dir/rule
+
+.PHONY : RPiClient.out
+
+# clean rule for target.
+RPiClient/CMakeFiles/RPiClient.out.dir/clean:
+	$(MAKE) -f RPiClient/CMakeFiles/RPiClient.out.dir/build.make RPiClient/CMakeFiles/RPiClient.out.dir/clean
+.PHONY : RPiClient/CMakeFiles/RPiClient.out.dir/clean
+
+# clean rule for target.
+clean: RPiClient/CMakeFiles/RPiClient.out.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Special targets to cleanup operation of make.
 
 # Special rule to run CMake to check the build system integrity.

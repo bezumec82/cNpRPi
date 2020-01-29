@@ -8,10 +8,12 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../RPiClient/CMakeLists.txt"
   "CMakeFiles/3.14.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.14.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.5/CMakeSystem.cmake"
   "../x86Test/CMakeLists.txt"
+  "../x86server/CMakeLists.txt"
   "/usr/local/share/cmake-3.14/Modules/CMakeCInformation.cmake"
   "/usr/local/share/cmake-3.14/Modules/CMakeCXXInformation.cmake"
   "/usr/local/share/cmake-3.14/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
@@ -43,9 +45,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "x86Test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "x86server/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "RPiClient/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "x86Test/CMakeFiles/CnPtest.out.dir/DependInfo.cmake"
+  "x86server/CMakeFiles/x86server.out.dir/DependInfo.cmake"
+  "RPiClient/CMakeFiles/RPiClient.out.dir/DependInfo.cmake"
   )
