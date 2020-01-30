@@ -1,6 +1,7 @@
 cmake_minimum_required( VERSION 3.14 )
 
-set( PROJECT_NAME x86server )
+project( x86server LANGUAGES CXX )
+# set( PROJECT_NAME x86server )
 
 message( "Configuring : " ${PROJECT_NAME}.out )
 
@@ -19,7 +20,7 @@ set( CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/x86out )
 file( GLOB CXX_TEST_FILES     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp )
 file( GLOB CXX_RESOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/../resource/*.c++ )
 include_directories( ${CMAKE_CURRENT_SOURCE_DIR}/../resource )
-
+message( "${CYN}Configuring project : ${PROJECT_NAME}${NORM}" )
 add_executable(
     ${PROJECT_NAME}.out
     ${CXX_TEST_FILES}

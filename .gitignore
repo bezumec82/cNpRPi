@@ -1,4 +1,4 @@
 /build/*
 /x86out
 /RPiOut
-/results/*.pcapng
+/results/*.capng

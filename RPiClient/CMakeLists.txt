@@ -1,8 +1,8 @@
 cmake_minimum_required( VERSION 3.14 )
 
-set( PROJECT_NAME RPiClient )
-
-message( "Configuring : " ${PROJECT_NAME}.out )
+project( RPiClient LANGUAGES CXX )
+# set( PROJECT_NAME RPiClient )
+message( "${CYN}Configuring project : ${PROJECT_NAME}${NORM}" )
 
 set( CMAKE_C_COMPILER   /usr/bin/gcc-8 )
 set( CMAKE_CXX_COMPILER /usr/bin/g++-8 )
@@ -47,8 +47,7 @@ set( CMAKE_C_COMPILER_WORKS     1 )
 
 set( CMAKE_BUILD_TYPE Debug )
 set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -pthread -std=c++14 -O0 -mfpu=neon" )
-message( "${CYN}" "CMAKE_CXX_FLAGS : " ${CMAKE_CXX_FLAGS} "${NORM}")
-
+# message( "${CYN}" "CMAKE_CXX_FLAGS : " ${CMAKE_CXX_FLAGS} "${NORM}")
 set( CMAKE_INSTALL_PREFIX           ${CMAKE_SOURCE_DIR}/RPiOut )
 set( CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/RPiOut )
 set( CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/RPiOut )

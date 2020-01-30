@@ -1,6 +1,8 @@
-cmake_minimum_required( VERSION 3.14 )
+cmake_minimum_required( VERSION 3.14 FATAL_ERROR )
 
-set( PROJECT_NAME CnPtest )
+project( x86CnPtest LANGUAGES CXX )
+# set( PROJECT_NAME CnPtest )
+message( "${CYN}Configuring project : ${PROJECT_NAME}${NORM}" )
 
 message( "Configuring test : " ${PROJECT_NAME}.out )
 
@@ -23,7 +25,6 @@ execute_process (
 file( GLOB CXX_TEST_FILES     ${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp )
 file( GLOB CXX_RESOURCE_FILES ${CMAKE_CURRENT_SOURCE_DIR}/resource/*.c++ )
 include_directories( ${CMAKE_CURRENT_SOURCE_DIR}/resource )
-
 add_executable(
     ${PROJECT_NAME}.out
     ${CXX_TEST_FILES}
