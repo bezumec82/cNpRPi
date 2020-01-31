@@ -41,3 +41,5 @@ This project doesn't contain any usable ```tasks.json```, learn Cmake already! B
 ### Present state
 Path to the one side was created RPi -> (C'n'P) -> x86 -> (CUDA) -> GPU
 TODO : return some value to the remote side and evaluate full cycle time.
+C'n'P RPC server code is in the  ```cudaTest``` folder.
+RPi client code is in the ```RPiClient``` folder.
