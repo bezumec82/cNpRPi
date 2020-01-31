@@ -38,3 +38,6 @@ At present moment it seems impossible to pass '''miDebuggerServerAddress'''  and
 '''miDebuggerPath''' is the full (relative not accepted) to the GDB for the remote side.
 This project doesn't contain any usable '''tasks.json''', learn Cmake already! But you can copy it from my other projects. 
 
+### Present state
+Path to the one side was created RPi -> (C'n'P) -> x86 -> (CUDA) -> GPU
+TODO : return some value to the remote side and evaluate full cycle time.
