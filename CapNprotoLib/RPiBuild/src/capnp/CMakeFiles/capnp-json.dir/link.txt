@@ -1,2 +1,0 @@
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc libcapnp-json.a  CMakeFiles/capnp-json.dir/compat/json.c++.o CMakeFiles/capnp-json.dir/compat/json.capnp.c++.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib libcapnp-json.a

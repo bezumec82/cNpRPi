@@ -1,2 +1,0 @@
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc libkj-async.a  CMakeFiles/kj-async.dir/async.c++.o CMakeFiles/kj-async.dir/async-unix.c++.o CMakeFiles/kj-async.dir/async-win32.c++.o CMakeFiles/kj-async.dir/async-io-win32.c++.o CMakeFiles/kj-async.dir/async-io.c++.o CMakeFiles/kj-async.dir/async-io-unix.c++.o CMakeFiles/kj-async.dir/timer.c++.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib libkj-async.a

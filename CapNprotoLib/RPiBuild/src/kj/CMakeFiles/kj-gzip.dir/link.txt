@@ -1,2 +1,0 @@
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ar qc libkj-gzip.a  CMakeFiles/kj-gzip.dir/compat/gzip.c++.o
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-ranlib libkj-gzip.a

@@ -1,1 +1,0 @@
-/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ --sysroot=/media/constantine/Work/BOARDS/RASPBERRY/tools-master/arm-bcm2708/arm-linux-gnueabihf/arm-linux-gnueabihf/sysroot    -rdynamic CMakeFiles/capnpc_cpp.dir/compiler/capnpc-c++.c++.o  -o capnpc-c++ libcapnp.a ../kj/libkj.a -lpthread 

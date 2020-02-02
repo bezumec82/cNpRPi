@@ -6,17 +6,29 @@ export MAG="\e[35m"     ; #echo -e "${MAG}Magenta output";
 export YEL="\e[33m"     ; #echo -e "${YEL}Yellow output";
 export BLU="\e[34m"     ; #echo -e "${BLU}Blue output";
 
-export RMT_IP=192.168.1.72
-export RMT_USR=pi
-export RMT_HOST_PASS=pi
-export RMT_HOST=${RMT_USR}@${RMT_IP}
-export TGT_EXE_PTH=/home/pi/remote-debug
-export GDB_PORT=2345
+
+# export RMT_IP=192.168.1.72
+# export RMT_USR=pi
+# export RMT_HOST_PASS=pi
+# export TGT_EXE_PTH=/home/pi/remote-debug
+# export GDB_PORT=2345
+
+if [ ! -f ./RPiConfig.json ]; then
+    echo -e "${RED}Configuration doesn't provided.${NORM}"
+fi 
+
+export        RMT_IP=`jq --raw-output '.RPiSide.IP'             ./RPiConfig.json`
+export       RMT_USR=`jq --raw-output '.RPiSide.UserName'       ./RPiConfig.json`
+export RMT_HOST_PASS=`jq --raw-output '.RPiSide.Pass'           ./RPiConfig.json`
+export   TGT_EXE_PTH=`jq --raw-output '.RPiSide.ExecutablePath' ./RPiConfig.json`
+export      GDB_PORT=`jq --raw-output '.RPiSide.GDBport'        ./RPiConfig.json`
+
+export      RMT_HOST=${RMT_USR}@${RMT_IP}
 
 export EXECTBL=$1
 
 if [ ! $EXECTBL ]; then
-    echo -e "${RED} Executable name to debug doesn't passed.${NORM}"
+    echo -e "${RED}Executable name to debug doesn't passed.${NORM}"
     exit 1
 fi
 

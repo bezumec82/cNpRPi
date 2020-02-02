@@ -1,0 +1,10 @@
+{
+    "RPiSide" :
+    {
+        "IP" : "192.168.1.72",
+        "UserName" : "pi",
+        "Pass" : "pi",
+        "ExecutablePath" : "/home/pi/remote-debug",
+        "GDBport" : "2345"
+    }
+}
