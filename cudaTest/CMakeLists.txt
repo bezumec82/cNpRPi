@@ -68,4 +68,5 @@ LINK_PRIVATE
     capnp
     kj
     kj-async
+    Tools
 )

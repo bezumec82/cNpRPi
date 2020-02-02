@@ -1,17 +1,18 @@
 #include "main.hpp"
+#include "Tools.h"
 
 class CallableImpl final: public Callable::Server
 {
     public:
     ::kj::Promise<void> print(PrintContext context) override {
-        ::std::cout << "Client ask to run CUDA calculations" << ::std::endl;
+        PRINTF( MAG, "Client ask to run CUDA calculations" );
         simpleAssert();
         return kj::READY_NOW;
     }
 };
 
 int main( int , char** ) {
-    ::std::cout << "Starting executing server" << ::std::endl;
+    PRINTF( YEL, "Starting executing server" );
     ::std::thread server_thread( [&]()
         {
             capnp::EzRpcServer server( kj::heap<CallableImpl>(), SERVER_ADDR);
