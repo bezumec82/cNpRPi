@@ -4,7 +4,6 @@ set( CMAKE_CUDA_COMPILER "/usr/local/cuda/bin/nvcc" )
 set( CUDA_HOME "/usr/local/cuda" )
 
 project( CudaTest LANGUAGES CXX CUDA )
-# set( PROJECT_NAME CudaTest )
 message( "${CYN}Configuring project : ${PROJECT_NAME}${NORM}" )
 
 set( CMAKE_SYSTEM_NAME Linux )
@@ -18,7 +17,7 @@ set( CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/x86out )
 
 set( LD_LIBRARY_PATH "${LD_LIBRARY_PATH}:/usr/local/cuda/lib64" )
 set( LD_LIBRARY_PATH "${LD_LIBRARY_PATH}:/usr/local/cuda/extras/CUPTI/lib64" )
-set( CMAKE_CUDA_FLAGS_DEBUG -g )
+set( CMAKE_CUDA_FLAGS_DEBUG "${CMAKE_CUDA_FLAGS_DEBUG} -g -G" )
 set( CMAKE_CUDA_FLAGS "-arch=sm_30" )
 
 set( CMAKE_C_COMPILER   /usr/bin/gcc-8 )
