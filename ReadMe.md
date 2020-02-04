@@ -3,6 +3,8 @@ The purpose of the project is to connect PRi to CUDA throw C'n'P RPC mechanism.
 The idea is to augment embedded platform computation capabilities by utilizing x86 GPU. 
 In current state just CUDA is supported. It seems that this is necessary to make some abstraction from execution mechanism and add OpenCL computation platform.
 
+Project consists of three parts : ```RPiClient```, that sends RPC query to the ```x86server```, that in its turn calls for ```cudaTest``` to execute computation. 
+
 ### Build
 To build project create 'build' directory in project root folder :
 ```
